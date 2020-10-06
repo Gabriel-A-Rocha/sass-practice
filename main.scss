@@ -1,13 +1,5 @@
-$main-color: #521751;
-$opposite-color: #c22184;
-$colors: (
-  primary: #521751,
-  secondary: #fae5ff,
-);
-$border-default: 0.05rem solid $main-color;
-$font-default: arial, sans-serif;
-
-@import "typography.css";
+@import "typography.scss";
+@import "_variables.scss";
 
 * {
   box-sizing: border-box;
@@ -15,6 +7,10 @@ $font-default: arial, sans-serif;
 
 html {
   font-size: 94.75%;
+
+  @media (min-width: 40rem) {
+    font-size: 125%;
+  }
 }
 
 body {
@@ -33,6 +29,10 @@ body {
   }
   align-items: center;
   padding: 3rem 0;
+
+  @media (min-width: 40rem) {
+    padding: 3rem 0;
+  }
 }
 
 .sass-introduction {
@@ -46,6 +46,10 @@ body {
   p {
     margin: 0;
   }
+
+  @media (min-width: 40rem) {
+    width: 30rem;
+  }
 }
 
 .sass-details {
@@ -55,6 +59,10 @@ body {
   text-align: center;
   margin: 2rem 0;
   width: 90%;
+
+  @media (min-width: 40rem) {
+    width: 30rem;
+  }
 }
 
 .section-header {
@@ -97,14 +105,6 @@ body {
 }
 
 @media (min-width: 40rem) {
-  html {
-    font-size: 125%;
-  }
-
-  .container {
-    padding: 3rem 0;
-  }
-
   .sass-introduction,
   .sass-details {
     width: 30rem;
