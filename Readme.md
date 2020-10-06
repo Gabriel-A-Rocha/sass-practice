@@ -16,6 +16,14 @@ This project contains practice for SASS syntax and features.
 - _Inheritance_
 - _Mixins_
 
+### Usage
+
+To play around with the code, the following command must be run:
+
+`sass --watch main.scss main.css`
+
+This will transpile the SASS code into ordinary CSS, which the browser understands.
+
 ### Screenshot:
 
 ![screenshot](./images/SASS-screenshot.png)
