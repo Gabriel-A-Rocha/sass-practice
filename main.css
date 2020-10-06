@@ -75,8 +75,8 @@ body {
 .documentation-links .documentation-link:hover,
 .documentation-links .documentation-link:active {
   color: white;
-  background: #fa923f;
-  border-color: #fa923f;
+  background: #c22184;
+  border-color: #c22184;
 }
 
 @media (min-width: 40rem) {
