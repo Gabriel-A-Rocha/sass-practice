@@ -18,11 +18,15 @@ This project is a practice of SASS syntax and features for learning purposes.
 
 ### Usage
 
-To play around with the code, the following command must be run:
+To play around with the code, SASS needs to be installed:
 
-`sass --watch main.scss main.css`
+**npm install -g sass**
 
-This will transpile the SASS code into ordinary CSS, which can be understood by the browser.
+To apply changes automatically upon saving, the following command must be run:
+
+**sass --watch main.scss main.css**
+
+This will transpile SASS code into ordinary CSS, which is understood by the browser.
 
 ### Screenshot:
 
